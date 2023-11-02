@@ -1,11 +1,140 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="Title">A.S. Quran Academy</title>
+    <link rel="stylesheet" href="/stylesheet/main.css" />
+    <link rel="stylesheet" href="/stylesheet/HomePageD.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <!-- nav -->
+    <div id="nav">
+      <div id="navMain">
+        <div id="navL">
+          <img src="/image/svg/logo-white copy.svg" alt="" />
+        </div>
+        <div id="navR">
+          <a href="/signin" id="signInToggleLink">Sign In</a>
+          <a href="/">Home</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- LANDING PAGE -->
+    <div class="bg" id="bg">
+      <!-- main bg -->
+      <div class="main">
+        <div class="bgLeft">
+          <div class="elem">
+            <h1 class="heading_bg">Welcome</h1>
+          </div>
+          <div class="elem">
+            <h1 class="heading_bg"><%= name %></h1>
+          </div>
+        </div>
+        <div class="bgRight">
+          <p style="pointer-events: none">﷽</p>
+          <!-- <div class="stactics img" id="stats_bg"></div> -->
+          <p>
+            Welcome, students, to a journey of knowledge, growth, and
+            inspiration at A.S. Quran Academy.
+          </p>
+
+          <button class="btn" id="openSignIn">Sign In</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" id="Page1">
+      <div id="infiniteScroller">
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+        <h1>SALE.20%.</h1>
+      </div>
+
+      <div id="mainP1">
+        <div id="TEXT">
+          <section id="s1">
+            <h1 class="txtleft">THE AIM</h1>
+            <p class="txtjus">
+              Our mission is to inspire and awaken the dormant Deen within you,
+              fostering a sense of purpose and spirituality. We are dedicated to
+              teaching and guiding you on your journey, providing you with the
+              knowledge, wisdom, and support you need to develop a deeper
+              connection with your faith. Through our educational initiatives
+              and resources, we aim to empower individuals to lead a life in
+              accordance with their beliefs, while also working tirelessly to
+              leave a lasting, positive impact on the world. At A.S. Quran
+              Academy, our approach transcends the mere mechanical act of
+              performing prayers devoid of a genuine connection to faith. We are
+              committed to providing you with an extensive understanding of
+              Deen, aiming to guide you towards the path of attaining Jannah,
+              much like we have done with numerous
+              <a href="#" class="inTextLink">students</a> in the past. Our
+              teaching philosophy is distinctively unconventional, focusing on
+              engaging and nurturing your spiritual growth. We believe in
+              fostering not only knowledge but also a profound connection with
+              your faith, encouraging a holistic understanding of Deen that
+              resonates with your heart and soul. Our team of experienced
+              educators is passionate about creating a learning environment that
+              combines tradition with modern pedagogical approaches. This fusion
+              enables us to address the unique needs of each student, allowing
+              for a more profound understanding of Deen and a spiritual journey
+              that is both enriching and personally meaningful. We take pride in
+              our track record of success, as we have witnessed many students
+              experience transformative spiritual growth, enriching their lives
+              and strengthening their relationship with their faith. At A.S.
+              Quran Academy, we are not just teaching; we are facilitating a
+              profound spiritual experience that aligns your heart and actions
+              with the <a href="#" class="inTextLink">teachings of Deen</a>.
+            </p>
+
+            <div class="img" id="i1">
+              <img src="/images/IMG_7566.JPG" alt="ss" />
+            </div>
+          </section>
+          <section id="s2">
+            <h1 class="txtright">THE PAST</h1>
+            <p class="txtjus">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              esse placeat accusamus non, possimus sunt explicabo? Officiis
+              placeat alias culpa maxime qui nisi ex facilis corporis animi
+              harum maiores doloribus architecto, consequatur tenetur numquam
+              nostrum esse id laboriosam voluptatem fugiat. Accusamus tempore
+              deleniti earum aperiam error vero, adipisci maxime reiciendis
+              fugiat voluptates sit consectetur, ipsum nisi sequi assumenda,
+              perspiciatis suscipit. Explicabo delectus beatae labore, magni
+              numquam exercitationem doloremque nostrum neque molestiae tempore
+              tempora sequi, omnis, corporis repellendus ab enim ipsam
+              laboriosam voluptates! Voluptate doloremque laudantium, accusamus,
+              totam error esse sint necessitatibus, expedita incidunt possimus
+              architecto repudiandae sed. Id, temporibus deleniti.
+            </p>
+            <div class="img" id="i2">
+              <img src="/images/IMG_7566.JPG" alt="ss" />
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div id="cursor"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- MY SCRIPTS -->
+    <script src="/javascripts/ELEMENTS.js"></script>
+    <script src="/javascripts/VANILLA.js"></script>
+    <script src="/javascripts/animations.js"></script>
   </body>
 </html>
